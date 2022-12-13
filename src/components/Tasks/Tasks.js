@@ -14,7 +14,7 @@ const Tasks = (props) => {
       </ul>
     );
   }
-
+ 
   let content = taskList;
 
   if (props.error) {

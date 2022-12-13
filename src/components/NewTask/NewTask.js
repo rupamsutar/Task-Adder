@@ -12,7 +12,7 @@ const NewTask = (props) => {
     setError(null);
     try {
       const response = await fetch(
-        'https://react-http-6b4a6.firebaseio.com/tasks.json',
+        'https://react-http-179c3-default-rtdb.firebaseio.com/tasks.json',
         {
           method: 'POST',
           body: JSON.stringify({ text: taskText }),
@@ -46,4 +46,4 @@ const NewTask = (props) => {
   );
 };
 
-export default NewTask;
+export default NewTask; 
